@@ -1,0 +1,9 @@
+Pillow>=10.3.0
+onnx==1.17.0
+tensorrt==10.9.0.34
+cuda-python==12.6.0
+pywin32; platform_system == "Windows"
+pyyaml==6.0.2
+requests==2.32.3
+tqdm==4.67.1
+numpy==2.1.3

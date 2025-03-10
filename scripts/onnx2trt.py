@@ -108,8 +108,8 @@ def convert_onnx_to_tensorrt(onnx_path, engine_path, precision="fp16", workspace
 # Example usage
 if __name__ == "__main__":
     # Replace with your actual paths
-    model_path = "../weights/retinaface_mv2.onnx"
-    engine_path = "../weights/retinaface_mv2.engine"
+    model_path = "../weights/retinaface_mv2_static.onnx"
+    engine_path = "../weights/retinaface_mv2_static.engine"
 
     convert_onnx_to_tensorrt(
         onnx_path=model_path,

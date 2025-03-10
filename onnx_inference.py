@@ -2,7 +2,7 @@ from models import RetinaFace
 
 # Initialize the RetinaFace model
 uniface_inference = RetinaFace(
-    model_path="weights/retinaface_mv2.onnx",    # Model path
+    model_path="weights/retinaface_mv2_static.onnx",    # Model path
     conf_thresh=0.5,                        # Confidence threshold
     pre_nms_topk=5000,                      # Pre-NMS Top-K detections
     nms_thresh=0.4,                         # NMS IoU threshold

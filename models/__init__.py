@@ -1,2 +1,3 @@
-from .onnx_model import RetinaFace
-from .trt_model import RetinaFaceTRT
+from .arcface_onnx import ArcFace
+from .retinaface_onnx import RetinaFace
+from .retinaface_trt import RetinaFaceTRT
